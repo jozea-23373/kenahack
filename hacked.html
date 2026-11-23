@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacked By Lavent</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #050505;
+            color: #00ff66;
+            font-family: 'Courier New', monospace;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        .container {
+            padding: 30px;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .profile {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #00ff66;
+            box-shadow: 0 0 25px #00ff66;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: clamp(30px, 7vw, 65px);
+            text-shadow: 0 0 10px #00ff66,
+                         0 0 25px #00ff66;
+            animation: glitch 1.5s infinite;
+        }
+
+        .subtitle {
+            color: white;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
+        .terminal {
+            border: 1px solid #00ff66;
+            padding: 20px;
+            margin: 30px auto;
+            max-width: 600px;
+            text-align: left;
+            box-shadow: 0 0 15px #00ff6633;
+        }
+
+        .terminal p {
+            margin: 10px 0;
+        }
+
+        .green {
+            color: #00ff66;
+        }
+
+        .red {
+            color: #ff3333;
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #777;
+            font-size: 12px;
+        }
+
+        @keyframes glitch {
+            0%, 100% {
+                text-shadow: 0 0 10px #00ff66;
+            }
+            50% {
+                text-shadow: 3px 0 red, -3px 0 blue,
+                             0 0 20px #00ff66;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- FOTO PROFIL -->
+        <img src="jpg.image/ambatukam.jpg" alt="takut" class="profile">
+
+        <h1>HACKED BY LAVENT</h1>
+
+        <p class="subtitle">
+            DIJAGA WEBSITENYA | ig: lavennn_ta | cybersecurity
+        </p>
+
+        <div class="terminal">
+            <p><span class="green">surikiti@lavent:~</span> dah ke hack...</p>
+            <p><span class="green">[+]</span> gacor kang</p>
+            <p><span class="green">[+]</span> responnya bray</p>
+            <p><span class="red">[!]</span> by jz lvnt</p>
+            <p><span class="green">surikiti@lavent:~</span> <span>_</span></p>
+        </div>
+
+        <p class="footer">
+            © 2026 HACKED BY LAVENT | my life my rules
+        </p>
+
+    </div>
+
+</body>
+</html>
